@@ -198,7 +198,7 @@ public class AsientoCompras extends SvrProcess {
             throw new AdempiereException(e);
         }
     }
-    
+
 
     private void setRoundingAcct(MInvoice invoice, MBPartner partner, String docBaseType, int diaNro, BigDecimal amtRounding) {
 
